@@ -30,6 +30,9 @@ header {
 	line-height: normal;
 	vertical-align: baseline;
 }
+h1 a:hover {
+	color: #ee7800;
+}
 
 .navbar{
 	margin-top: 5%;
@@ -125,7 +128,9 @@ p{
 
 .footer a:hover{
 	color: #ee7800;
+	font-weight: bold;
 }
+
 .social {
 	display: inline;
 }
@@ -134,10 +139,19 @@ p{
 	display: inline;
 	float: right;
 	margin-right: 20%;
-	margin-top: 0px;
+	margin-top: 0px; 
 }
 .social li {
 	display: inline;
 	border: none;
 }
 
+#googleplus a:hover {
+	color: #D50F25;
+}
+ #facebook a:hover {
+ 	color: #3369E8;
+ }
+ #instagram a:hover{
+ 	color: #EEB211;
+ }
